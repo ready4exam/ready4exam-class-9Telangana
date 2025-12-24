@@ -33,7 +33,7 @@ export const curriculum = {
       },
       {
         "chapter_title": "Atoms, Molecules and Chemical Reactions",
-        "table_id": "",
+        "table_id": "science_atoms_reactions_9telangana_quiz",
         "section": "Science"
       },
       {
