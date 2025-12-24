@@ -245,7 +245,7 @@ export const curriculum = {
     "Number Systems & Algebra": [
       {
         "chapter_title": "Real Numbers",
-        "table_id": "",
+        "table_id": "mathematics_real_numbers_9telangana_quiz",
         "section": "Mathematics"
       },
       {
