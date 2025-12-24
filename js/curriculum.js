@@ -13,7 +13,7 @@ export const curriculum = {
       },
       {
         "chapter_title": "Laws of Motion",
-        "table_id": "",
+        "table_id": "science_laws_motion_9telangana_quiz",
         "section": "Science"
       },
       {
