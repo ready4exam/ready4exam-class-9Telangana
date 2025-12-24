@@ -3,7 +3,7 @@ export const curriculum = {
     "Physical Science (Physics & Chemistry)": [
       {
         "chapter_title": "Matter Around Us",
-        "table_id": "",
+        "table_id": "science_matter_us_9telangana_quiz",
         "section": "Science"
       },
       {
