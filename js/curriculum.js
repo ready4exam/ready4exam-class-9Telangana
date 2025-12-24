@@ -28,7 +28,7 @@ export const curriculum = {
       },
       {
         "chapter_title": "Is Matter Pure?",
-        "table_id": "",
+        "table_id": "science_is_pure_9telangana_quiz",
         "section": "Science"
       },
       {
