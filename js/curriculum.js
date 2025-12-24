@@ -18,7 +18,7 @@ export const curriculum = {
       },
       {
         "chapter_title": "Refraction of Light at Plane Surfaces",
-        "table_id": "",
+        "table_id": "science_refraction_surfaces_9telangana_quiz",
         "section": "Science"
       },
       {
