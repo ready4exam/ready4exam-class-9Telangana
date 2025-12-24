@@ -80,7 +80,7 @@ export const curriculum = {
       },
       {
         "chapter_title": "Plasma Membrane",
-        "table_id": "",
+        "table_id": "science_plasma_membrane_9tg_quiz",
         "section": "Science"
       },
       {
