@@ -23,7 +23,7 @@ export const curriculum = {
       },
       {
         "chapter_title": "Gravitation",
-        "table_id": "",
+        "table_id": "science_gravitation_gravitation_9telangana_quiz",
         "section": "Science"
       },
       {
