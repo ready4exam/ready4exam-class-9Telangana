@@ -164,7 +164,7 @@ export const curriculum = {
       },
       {
         "chapter_title": "Prices and Cost of Living",
-        "table_id": "",
+        "table_id": "social_prices_living_9telangana_quiz",
         "section": "Social Studies"
       },
       {
