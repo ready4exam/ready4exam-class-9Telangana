@@ -196,7 +196,7 @@ export const curriculum = {
       },
       {
         "chapter_title": "Changing Cultural Traditions in Europe (1300-1800)",
-        "table_id": "",
+        "table_id": "social_changing_1800_9telangana_quiz",
         "section": "Social Studies"
       },
       {
