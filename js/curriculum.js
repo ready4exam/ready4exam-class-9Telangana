@@ -115,7 +115,7 @@ export const curriculum = {
       },
       {
         "chapter_title": "Biogeochemical Cycles",
-        "table_id": "",
+        "table_id": "science_biogeochemical_cycles_9telangana_quiz",
         "section": "Science"
       }
     ]
