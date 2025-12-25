@@ -255,7 +255,7 @@ export const curriculum = {
       },
       {
         "chapter_title": "Linear Equations in Two Variables",
-        "table_id": "",
+        "table_id": "mathematics_linear_variables_9telangana_quiz",
         "section": "Mathematics"
       },
       {
