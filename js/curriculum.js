@@ -85,7 +85,7 @@ export const curriculum = {
       },
       {
         "chapter_title": "Diversity in Living Organisms",
-        "table_id": "",
+        "table_id": "science_diversity_organisms_9telangana_quiz",
         "section": "Science"
       },
       {
