@@ -75,7 +75,7 @@ export const curriculum = {
       },
       {
         "chapter_title": "Animal Tissues",
-        "table_id": "",
+        "table_id": "science_animal_tissues_9telangana_quiz",
         "section": "Science"
       },
       {
