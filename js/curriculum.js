@@ -277,7 +277,7 @@ export const curriculum = {
       },
       {
         "chapter_title": "Triangles",
-        "table_id": "",
+        "table_id": "mathematics_triangles_triangles_9telangana_quiz",
         "section": "Mathematics"
       },
       {
