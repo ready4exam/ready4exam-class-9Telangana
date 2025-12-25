@@ -314,7 +314,7 @@ export const curriculum = {
       },
       {
         "chapter_title": "Statistics",
-        "table_id": "",
+        "table_id": "mathematics_statistics_statistics_9telangana_quiz",
         "section": "Mathematics"
       },
       {
