@@ -319,7 +319,7 @@ export const curriculum = {
       },
       {
         "chapter_title": "Probability",
-        "table_id": "",
+        "table_id": "mathematics_probability_probability_9telangana_quiz",
         "section": "Mathematics"
       },
       {
