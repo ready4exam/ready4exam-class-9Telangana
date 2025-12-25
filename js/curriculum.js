@@ -149,7 +149,7 @@ export const curriculum = {
       },
       {
         "chapter_title": "Agriculture in India",
-        "table_id": "",
+        "table_id": "social_agriculture_india_9telangana_quiz",
         "section": "Social Studies"
       },
       {
