@@ -70,7 +70,7 @@ export const curriculum = {
       },
       {
         "chapter_title": "Plant Tissues",
-        "table_id": "",
+        "table_id": "science_plant_tissues_9telangana_quiz",
         "section": "Science"
       },
       {
