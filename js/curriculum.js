@@ -8,7 +8,7 @@ export const curriculum = {
       },
       {
         "chapter_title": "Motion",
-        "table_id": "",
+        "table_id": "science_motion_motion_9telangana_quiz",
         "section": "Science"
       },
       {
