@@ -110,7 +110,7 @@ export const curriculum = {
       },
       {
         "chapter_title": "Soil Pollution",
-        "table_id": "",
+        "table_id": "science_soil_pollution_9telangana_quiz",
         "section": "Science"
       },
       {
