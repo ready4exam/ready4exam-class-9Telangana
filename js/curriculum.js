@@ -181,7 +181,7 @@ export const curriculum = {
       },
       {
         "chapter_title": "Women Protection Acts",
-        "table_id": "",
+        "table_id": "social_women_acts_9telangana_quiz",
         "section": "Social Studies"
       },
       {
