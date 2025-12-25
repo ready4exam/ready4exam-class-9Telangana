@@ -236,7 +236,7 @@ export const curriculum = {
       },
       {
         "chapter_title": "Traffic Education",
-        "table_id": "",
+        "table_id": "social_traffic_education_9telangana_quiz",
         "section": "Social Studies"
       }
     ]
