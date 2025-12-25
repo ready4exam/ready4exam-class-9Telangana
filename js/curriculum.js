@@ -48,7 +48,7 @@ export const curriculum = {
       },
       {
         "chapter_title": "Work and Energy",
-        "table_id": "",
+        "table_id": "science_work_energy_9telangana_quiz",
         "section": "Science"
       },
       {
