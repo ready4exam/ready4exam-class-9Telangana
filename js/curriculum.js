@@ -134,7 +134,7 @@ export const curriculum = {
       },
       {
         "chapter_title": "Hydrosphere",
-        "table_id": "",
+        "table_id": "social_hydrosphere_hydrosphere_9telangana_quiz",
         "section": "Social Studies"
       },
       {
