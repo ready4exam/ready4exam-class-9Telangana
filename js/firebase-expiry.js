@@ -1,6 +1,7 @@
 import { initializeServices, getInitializedClients } from "./config.js";
 import { doc, getDoc, setDoc, updateDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore.js";
 
+// Helper: Creates a user profile if one doesn't exist
 export async function ensureUserDocExists() {
   await initializeServices();
   const { auth, db } = getInitializedClients();
@@ -14,6 +15,7 @@ export async function ensureUserDocExists() {
   return newDoc;
 }
 
+// Helper: Shows the "Access Denied" popup
 export function showExpiredPopup(message = "Access Restricted") {
   if (document.getElementById("r4e-expired-modal")) return;
   const wrap = document.createElement("div");
@@ -23,6 +25,7 @@ export function showExpiredPopup(message = "Access Restricted") {
   document.body.appendChild(wrap);
 }
 
+// MAIN LOGIC: The "Gatekeeper"
 export async function checkClassAccess(classId, stream) {
   await initializeServices();
   const { auth, db } = getInitializedClients();
@@ -34,19 +37,21 @@ export async function checkClassAccess(classId, stream) {
   const snap = await getDoc(userRef);
   if (!snap.exists()) { try { await ensureUserDocExists(); } catch (e) {} }
 
-  // --- TELANGANA DEMO BYPASS ---
+  // --- TELANGANA DEMO BYPASS (The New Logic) ---
   if (classId === "TS_9") {
       const data = snap.exists() ? snap.data() : {};
-      // 1. Auto-Tag for Dashboard
+      
+      // 1. Silent Tracking: If they don't have the tag, give it to them.
       if (!data.paidClasses?.["TS_9"]) {
           try { await updateDoc(userRef, { "paidClasses.TS_9": true }); } 
           catch(e) { console.log("Tracking update silent fail"); }
       }
-      // 2. Grant Free Access
+      
+      // 2. Grant Access: Ignore expiry dates and class locks.
       return { allowed: true }; 
   }
 
-  // --- STANDARD CBSE SECURITY ---
+  // --- STANDARD CBSE SECURITY (Old Logic Preserved) ---
   const data = snap.data() || {};
   const ADMIN_EMAILS = ["keshav.karn@gmail.com", "ready4urexam@gmail.com"];
   if (data.role === "admin" || (user.email && ADMIN_EMAILS.includes(user.email.toLowerCase()))) return { allowed: true }; 
