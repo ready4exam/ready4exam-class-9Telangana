@@ -216,7 +216,7 @@ export const curriculum = {
       },
       {
         "chapter_title": "Expansion of Democracy",
-        "table_id": "",
+        "table_id": "social_expansion_democracy_9telangana_quiz",
         "section": "Social Studies"
       },
       {
