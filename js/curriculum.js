@@ -144,7 +144,7 @@ export const curriculum = {
       },
       {
         "chapter_title": "Biosphere",
-        "table_id": "",
+        "table_id": "social_biosphere_biosphere_9telangana_quiz",
         "section": "Social Studies"
       },
       {
