@@ -23,9 +23,6 @@ export function showExpiredPopup(message = "Access Restricted") {
   document.body.appendChild(wrap);
 }
 
-/**
- * STRICT ACCESS CHECK (With TS_9 Bypass & Auto-Tagging)
- */
 export async function checkClassAccess(classId, stream) {
   await initializeServices();
   const { auth, db } = getInitializedClients();
@@ -39,21 +36,20 @@ export async function checkClassAccess(classId, stream) {
 
   // --- TELANGANA DEMO BYPASS ---
   if (classId === "TS_9") {
-      // 1. Tag for Dashboard (Silent Update)
       const data = snap.exists() ? snap.data() : {};
+      // 1. Auto-Tag for Dashboard
       if (!data.paidClasses?.["TS_9"]) {
           try { await updateDoc(userRef, { "paidClasses.TS_9": true }); } 
           catch(e) { console.log("Tracking update silent fail"); }
       }
-      // 2. Grant Access (Ignore Expiry)
+      // 2. Grant Free Access
       return { allowed: true }; 
   }
-  // -----------------------------
 
+  // --- STANDARD CBSE SECURITY ---
   const data = snap.data() || {};
   const ADMIN_EMAILS = ["keshav.karn@gmail.com", "ready4urexam@gmail.com"];
   if (data.role === "admin" || (user.email && ADMIN_EMAILS.includes(user.email.toLowerCase()))) return { allowed: true }; 
-
   if (data.accessExpiryDate && new Date() >= new Date(data.accessExpiryDate)) return { allowed: false, reason: "Access expired. Contact Admin." };
 
   const paidClasses = data.paidClasses || {};
@@ -62,7 +58,6 @@ export async function checkClassAccess(classId, stream) {
   const lockedClasses = Object.keys(paidClasses).filter(k => paidClasses[k] === true);
   if (lockedClasses.length > 0) return { allowed: false, reason: `Locked to Class ${lockedClasses[0]}. Cannot access ${classId}.` };
   
-  // Auto-lock new CBSE user
   try { await updateDoc(userRef, { [`paidClasses.${classId}`]: true }); return { allowed: true }; } 
   catch (e) { return { allowed: false, reason: "Registration failed." }; }
 }
