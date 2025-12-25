@@ -159,7 +159,7 @@ export const curriculum = {
       },
       {
         "chapter_title": "Service Activities in India",
-        "table_id": "",
+        "table_id": "social_service_india_9telangana_quiz",
         "section": "Social Studies"
       },
       {
