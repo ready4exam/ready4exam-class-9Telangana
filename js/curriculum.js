@@ -95,7 +95,7 @@ export const curriculum = {
       },
       {
         "chapter_title": "Animal Behaviour",
-        "table_id": "",
+        "table_id": "science_animal_behaviour_9telangana_quiz",
         "section": "Science"
       },
       {
