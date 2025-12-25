@@ -169,7 +169,7 @@ export const curriculum = {
       },
       {
         "chapter_title": "Government Budget and Taxation",
-        "table_id": "",
+        "table_id": "social_government_taxation_9telangana_quiz",
         "section": "Social Studies"
       }
     ],
