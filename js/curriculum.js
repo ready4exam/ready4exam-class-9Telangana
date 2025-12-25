@@ -53,7 +53,7 @@ export const curriculum = {
       },
       {
         "chapter_title": "Heat",
-        "table_id": "",
+        "table_id": "science_heat_heat_9telangana_quiz",
         "section": "Science"
       },
       {
