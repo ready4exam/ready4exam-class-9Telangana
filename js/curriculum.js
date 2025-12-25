@@ -201,7 +201,7 @@ export const curriculum = {
       },
       {
         "chapter_title": "Social Protest Movements",
-        "table_id": "",
+        "table_id": "social_social_movements_9telangana_quiz",
         "section": "Social Studies"
       },
       {
