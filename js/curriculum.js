@@ -282,7 +282,7 @@ export const curriculum = {
       },
       {
         "chapter_title": "Quadrilaterals",
-        "table_id": "",
+        "table_id": "mathematics_quadrilaterals_quadrilaterals_9telangana_quiz",
         "section": "Mathematics"
       },
       {
