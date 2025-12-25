@@ -260,7 +260,7 @@ export const curriculum = {
       },
       {
         "chapter_title": "Algebraic Identities",
-        "table_id": "",
+        "table_id": "mathematics_algebraic_identities_9telangana_quiz",
         "section": "Mathematics"
       }
     ],
