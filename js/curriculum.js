@@ -100,7 +100,7 @@ export const curriculum = {
       },
       {
         "chapter_title": "Challenges in Improving Agricultural Products",
-        "table_id": "",
+        "table_id": "science_challenges_products_9telangana_quiz",
         "section": "Science"
       },
       {
