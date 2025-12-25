@@ -176,7 +176,7 @@ export const curriculum = {
     "History & Political Science": [
       {
         "chapter_title": "The Industrial Revolution",
-        "table_id": "",
+        "table_id": "social_industrial_revolution_9telangana_quiz",
         "section": "Social Studies"
       },
       {
