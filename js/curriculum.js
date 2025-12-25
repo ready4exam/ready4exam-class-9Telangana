@@ -58,7 +58,7 @@ export const curriculum = {
       },
       {
         "chapter_title": "Sound",
-        "table_id": "",
+        "table_id": "science_sound_sound_9telangana_quiz",
         "section": "Science"
       }
     ],
