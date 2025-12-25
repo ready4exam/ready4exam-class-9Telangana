@@ -226,7 +226,7 @@ export const curriculum = {
       },
       {
         "chapter_title": "Human Rights and Fundamental Rights",
-        "table_id": "",
+        "table_id": "social_human_rights_9telangana_quiz",
         "section": "Social Studies"
       },
       {
