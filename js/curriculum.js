@@ -211,7 +211,7 @@ export const curriculum = {
       },
       {
         "chapter_title": "Impact of Colonialism in India",
-        "table_id": "",
+        "table_id": "social_impact_india_9telangana_quiz",
         "section": "Social Studies"
       },
       {
