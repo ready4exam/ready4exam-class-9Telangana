@@ -2,7 +2,7 @@ import { initializeServices, getInitializedClients } from "./config.js";
 import { fetchQuestions, saveResult } from "./api.js";
 import * as UI from "./ui-renderer.js";
 import { initializeAuthListener, requireAuth } from "./auth-paywall.js";
-import { showExpiredPopup, checkClassAccess } from "./firebase-expiry.js"; // Centralized Logic
+import { showExpiredPopup, checkClassAccess } from "./firebase-expiry.js";
 
 let quizState = { classId: "", subject: "", topicSlug: "", difficulty: "", questions: [], currentQuestionIndex: 0, userAnswers: {}, isSubmitted: false };
 let questionsPromise = null;
@@ -22,9 +22,7 @@ function parseUrlParameters() {
     } else { displayChapter = decodeURIComponent(displayChapter); }
 
     displayChapter = displayChapter.replace(/\b\w/g, c => c.toUpperCase()).replace(/\bAnd\b/g, "and"); 
-    
-    // Header Fix: Hide 'TS_' prefix
-    const displayClass = quizState.classId.replace("TS_", "");
+    const displayClass = quizState.classId.replace("TS_", ""); // CLEAN DISPLAY
     UI.updateHeader(`Class ${displayClass} : ${quizState.subject} - ${displayChapter} Worksheet`, quizState.difficulty);
 }
 
@@ -52,8 +50,7 @@ async function handleSubmit() {
         const type = q.question_type.toLowerCase();
         const isCorrect = quizState.userAnswers[q.id] === q.correct_answer;
         const cat = type.includes("ar") ? "ar" : type.includes("case") ? "case" : "mcq";
-        stats[cat].t++;
-        if (isCorrect) { stats.correct++; stats[cat].c++; } else { stats[cat].w++; }
+        stats[cat].t++; if (isCorrect) { stats.correct++; stats[cat].c++; } else { stats[cat].w++; }
     });
     UI.renderResults(stats, quizState.difficulty);
     saveResult({ ...quizState, score: stats.correct, total: stats.total, topic: quizState.topicSlug });
@@ -72,10 +69,7 @@ function attachDomEvents() {
 }
 
 async function init() {
-    UI.initializeElements();
-    parseUrlParameters();
-    attachDomEvents();
-    UI.attachAnswerListeners(handleAnswerSelection);
+    UI.initializeElements(); parseUrlParameters(); attachDomEvents(); UI.attachAnswerListeners(handleAnswerSelection);
     try {
         await initializeServices();
         const btn = document.getElementById("google-signin-btn");
