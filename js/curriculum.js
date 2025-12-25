@@ -186,7 +186,7 @@ export const curriculum = {
       },
       {
         "chapter_title": "Democratic and Nationalist Revolutions: 17th, 18th & 19th Centuries",
-        "table_id": "",
+        "table_id": "social_democratic_centuries_9telangana_quiz",
         "section": "Social Studies"
       },
       {
