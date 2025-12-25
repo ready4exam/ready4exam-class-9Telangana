@@ -105,7 +105,7 @@ export const curriculum = {
       },
       {
         "chapter_title": "Adaptations in Different Ecosystems",
-        "table_id": "",
+        "table_id": "science_adaptations_ecosystems_9telangana_quiz",
         "section": "Science"
       },
       {
