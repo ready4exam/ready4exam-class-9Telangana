@@ -129,7 +129,7 @@ export const curriculum = {
       },
       {
         "chapter_title": "The Natural Realms of the Earth",
-        "table_id": "",
+        "table_id": "social_natural_earth_9telangana_quiz",
         "section": "Social Studies"
       },
       {
