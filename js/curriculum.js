@@ -139,7 +139,7 @@ export const curriculum = {
       },
       {
         "chapter_title": "Atmosphere",
-        "table_id": "",
+        "table_id": "social_atmosphere_atmosphere_9telangana_quiz",
         "section": "Social Studies"
       },
       {
