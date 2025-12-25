@@ -297,7 +297,7 @@ export const curriculum = {
       },
       {
         "chapter_title": "Geometrical Constructions",
-        "table_id": "",
+        "table_id": "mathematics_geometrical_constructions_9telangana_quiz",
         "section": "Mathematics"
       }
     ],
