@@ -267,7 +267,7 @@ export const curriculum = {
     "Geometry": [
       {
         "chapter_title": "Elements of Geometry",
-        "table_id": "",
+        "table_id": "mathematics_elements_geometry_9telangana_quiz",
         "section": "Mathematics"
       },
       {
