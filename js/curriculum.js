@@ -231,7 +231,7 @@ export const curriculum = {
       },
       {
         "chapter_title": "Disaster Management",
-        "table_id": "",
+        "table_id": "social_disaster_management_9telangana_quiz",
         "section": "Social Studies"
       },
       {
