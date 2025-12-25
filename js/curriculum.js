@@ -221,7 +221,7 @@ export const curriculum = {
       },
       {
         "chapter_title": "Democracy - An Evolving Idea",
-        "table_id": "",
+        "table_id": "social_democracy_idea_9telangana_quiz",
         "section": "Social Studies"
       },
       {
