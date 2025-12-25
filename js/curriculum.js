@@ -38,7 +38,7 @@ export const curriculum = {
       },
       {
         "chapter_title": "Floating Bodies",
-        "table_id": "science_floating_bodies_9tg_quiz",
+        "table_id": "science_floating_bodies_9telangana_quiz",
         "section": "Science"
       },
       {
