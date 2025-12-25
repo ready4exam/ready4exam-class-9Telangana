@@ -65,7 +65,7 @@ export const curriculum = {
     "Biological Science": [
       {
         "chapter_title": "Cell - Its Structure and Functions",
-        "table_id": "",
+        "table_id": "science_cell_functions_9telangana_quiz",
         "section": "Science"
       },
       {
