@@ -287,7 +287,7 @@ export const curriculum = {
       },
       {
         "chapter_title": "Area",
-        "table_id": "",
+        "table_id": "mathematics_area_area_9telangana_quiz",
         "section": "Mathematics"
       },
       {
