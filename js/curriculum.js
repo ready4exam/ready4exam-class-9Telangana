@@ -191,7 +191,7 @@ export const curriculum = {
       },
       {
         "chapter_title": "Democratic Government",
-        "table_id": "",
+        "table_id": "social_democratic_government_9telangana_quiz",
         "section": "Social Studies"
       },
       {
