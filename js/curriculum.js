@@ -250,7 +250,7 @@ export const curriculum = {
       },
       {
         "chapter_title": "Polynomials and Factorisation",
-        "table_id": "",
+        "table_id": "mathematics_polynomials_factorisation_9telangana_quiz",
         "section": "Mathematics"
       },
       {
