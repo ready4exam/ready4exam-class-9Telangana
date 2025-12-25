@@ -90,7 +90,7 @@ export const curriculum = {
       },
       {
         "chapter_title": "Sense Organs",
-        "table_id": "",
+        "table_id": "science_sense_organs_9telangana_quiz",
         "section": "Science"
       },
       {
