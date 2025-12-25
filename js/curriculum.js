@@ -324,7 +324,7 @@ export const curriculum = {
       },
       {
         "chapter_title": "Proofs in Mathematics",
-        "table_id": "",
+        "table_id": "mathematics_proofs_mathematics_9telangana_quiz",
         "section": "Mathematics"
       }
     ]
