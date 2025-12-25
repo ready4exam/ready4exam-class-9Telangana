@@ -206,7 +206,7 @@ export const curriculum = {
       },
       {
         "chapter_title": "Colonialism in Latin America, Asia and Africa",
-        "table_id": "",
+        "table_id": "social_colonialism_africa_9telangana_quiz",
         "section": "Social Studies"
       },
       {
