@@ -272,7 +272,7 @@ export const curriculum = {
       },
       {
         "chapter_title": "Lines and Angles",
-        "table_id": "",
+        "table_id": "mathematics_lines_angles_9telangana_quiz",
         "section": "Mathematics"
       },
       {
