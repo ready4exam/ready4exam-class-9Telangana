@@ -124,7 +124,7 @@ export const curriculum = {
     "Geography & Economics": [
       {
         "chapter_title": "Our Earth",
-        "table_id": "",
+        "table_id": "social_our_earth_9telangana_quiz",
         "section": "Social Studies"
       },
       {
