@@ -43,7 +43,7 @@ export const curriculum = {
       },
       {
         "chapter_title": "What is Inside the Atom?",
-        "table_id": "",
+        "table_id": "science_what_atom_9telangana_quiz",
         "section": "Science"
       },
       {
